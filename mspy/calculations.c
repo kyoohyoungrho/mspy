@@ -6,11 +6,12 @@
 #include "numpy/arrayobject.h"
 #include "stdlib.h"
 
+/*
 static double round(double val)
 {
     return floor(val + 0.5);
 }
-
+*/
 typedef struct {
     double *data;
     int len;
